@@ -50,3 +50,8 @@ else
 	fi
 fi
 #
+# about
+export OF_MAINTAINER="MRX7014"
+export FOX_BUILD_TYPE="Unofficial"
+export TARGET_DEVICE_ALT="a23"
+export FOX_VERSION="R12.1"
