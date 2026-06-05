@@ -1,0 +1,27 @@
+# screen settings
+OF_SCREEN_H := 2000
+OF_STATUS_H := 122
+OF_STATUS_INDENT_LEFT := 80
+OF_STATUS_INDENT_RIGHT := 80
+OF_USE_GREEN_LED := 0
+OF_HIDE_NOTCH := 1
+OF_ALLOW_DISABLE_NAVBAR := 0
+
+# number of list options before scrollbar creation
+OF_OPTIONS_LIST_NUM := 12
+
+# others
+OF_UNBIND_SDCARD_F2FS := 1
+OF_QUICK_BACKUP_LIST := /boot;/dtbo;/recovery;
+OF_PATCH_AVB20 := 1
+OF_USE_DMCTL := 1
+OF_ENABLE_ALL_PARTITION_TOOLS := 1
+
+# disable the flashlight
+OF_FLASHLIGHT_ENABLE := 0
+
+# FRP
+OF_ENABLE_FRP_ADDON := 1
+
+# battery percent
+OF_USE_LEGACY_BATTERY_SERVICES := 1
