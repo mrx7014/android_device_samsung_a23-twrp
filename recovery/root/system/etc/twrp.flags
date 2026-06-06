@@ -19,5 +19,6 @@
 /vbmeta_vendor          emmc            /dev/block/by-name/vbmeta_Vendor         flags=backup=1;flashimg;display="Vbmeta_Vendor"
 /vbmeta                 emmc		/dev/block/by-name/vbmeta                flags=backup=1;flashimg;display="Vbmeta"
 
-/external_sd            auto            /dev/block/mmcblk0p1  /dev/block/mmcblk1            flags=display="MicroSD";storage;wipeingui;removable
-/usb_otg                auto            /dev/block/sda1       /dev/block/sda                flags=display="USB-Storage";storage;wipeingui;removable
+# Removable partitions
+/external_sd	auto		/dev/block/mmcblk0p1	/dev/block/mmcblk1	flags=storage;wipeingui;removable
+/usb-otg	auto		/dev/block/sdg1		/dev/block/sdg		flags=storage;wipeingui;removable
