@@ -54,6 +54,6 @@ fi
 export OF_MAINTAINER="MRX7014"
 export FOX_BUILD_TYPE="Unofficial"
 export TARGET_DEVICE_ALT="a23"
-export FOX_MAINTAINER_PATCH_VERSION="R12.1"
+export FOX_MAINTAINER_PATCH_VERSION="67"
 # no special Samsung stuff (For Fix Img Size)
 export FOX_NO_SAMSUNG_SPECIAL="1"
